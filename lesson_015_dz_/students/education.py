@@ -106,8 +106,8 @@ class Student:
 
 
 if __name__ == '__main__':
-    student_1 = Student('Иванов', 'Иван', 'Петрович')
-    student_2 = Student('Сидоров', 'Николай', 'Петрович')
+    student_1 = Student('Иванов', 'Иван', 'Иванович')
+    student_2 = Student('Сидоров', 'Сидор', 'Сидорович')
 
     print(student_1.short_name)
     print(student_2)
