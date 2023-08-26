@@ -1,3 +1,4 @@
+# Дисциплины
 from .test_rate import TestRate
 from .test_name import TestName
 
@@ -7,7 +8,7 @@ __all__ = ['Discipline']
 _MIN_RATE = 2
 _MAX_RATE = 5
 
-# диапазон оценок по тестам
+# шкала  оценок по тестам
 _MIN_TEST = 0
 _MAX_TEST = 100
 
