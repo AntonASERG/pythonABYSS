@@ -1,8 +1,9 @@
+#Класс  для проверки выставленных оценок
 __all__ = ['TestRate']
 
 
 class TestRate:
-    """Класс-дескриптор для проверки выставленных оценок."""
+    """Класс для проверки выставленных оценок."""
 
     def __init__(self, min_value: int, max_value: int):
         self.min_value = min_value
